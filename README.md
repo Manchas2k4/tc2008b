@@ -1,3 +1,4 @@
+![Tec de Monterrey](images/logotecmty.png)
 # TC2008B - Modeling of Multi-Agent Systems with Computer Graphics
 
 ##Course intention within the general study plan context:
