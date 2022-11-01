@@ -24,5 +24,5 @@
 | Clase | Tema        |
 | ----- | ----------- |
 |   1   | [Introducción a las gráficas computacionales](/graphics/1_intro_graphics.md) |
-|   2   | [Modelado](/graphics/2_intro_unity.md) |
+|   2   | [Transformación de la Cámara](/graphics/2_intro_unity.md) |
 |   3   | [Introducción a Unity](/graphics/3_intro_unity.md) |
