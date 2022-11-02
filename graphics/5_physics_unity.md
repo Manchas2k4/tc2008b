@@ -9,7 +9,7 @@ Durante la sesión veremos el manejo de física y obstáculos en Unity.
 **Nota: Recuerda que el final de los laboratorios de Unity será una de las actividades a entregar, no borres nada de tu código realizado y ve complementando conforme vayas avanzando.**
 
 ## Laboratorio
-[Ver Laboratorio](/graphics/labs/1_starting_unity.md)
+[Ver Laboratorio](/graphics/labs/2_physics_unity.md)
 
 ## Entregables
 - Hasta el momento el documento entregable que debes tener construido debe contener:
@@ -17,6 +17,6 @@ Durante la sesión veremos el manejo de física y obstáculos en Unity.
   - Reflexión sobre el aprendizaje adquirido en el laboratorio del 01/11/2022 con fecha de realización.
   - Screenshot de tu layout de color en el play mode.
   - Lista de errores que hasta el momento existen en el juego.
-  - Código documentado de la clase **FollowPlayer**
+  - Código documentado de la clase **FollowPlayer**.
   - Reflexión sobre el aprendizaje adquirido en el laboratorio del 02/11/2022 con fecha de realización.
 - Este documento lo iremos complementando conforme avance el laboratorio, deberás entregarlo con el video demostrativo que te solicitaremos en próximas sesiones.
