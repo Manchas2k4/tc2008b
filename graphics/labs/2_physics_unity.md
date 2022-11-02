@@ -577,3 +577,7 @@ Ya que tenemos ordenado nuestro código, ahora procederemos a ordenar nuestra je
 Después vamos a seleccionar todos nuestros obstáculos, y vamos a arrastrarlos a este nuevo objeto vacío que acabamos de crear.
 
 ![graficas](/graphics/assets/img/110_lab1.png)
+
+Con este nuevo objeto, ya no necesito seleccionar todos los objetos obstáculo para moverlos, con seleccionar al padre, ya puedo tomarlos todos como parte de un grupo.
+
+De momento es todo por la sesión revisa, lo que debes de tener para tu reporte hasta el momento, el día de mañana finalizaremos con este laboratorio básico y la funcionalidad final del juego.
