@@ -28,5 +28,5 @@
 |   ~~3~~   | ~~[Introducción a Unity](/graphics/3_intro_unity.md)~~ |
 |   4   | [Triangles and Sampling](/graphics/4_triangles_and_sampling.md) |
 |   5   | [Física y Obstáculos en Unity](/graphics/5_physics_unity.md) |
-|   6   | [Física y Obstáculos en Unity](/graphics/5_physics_unity.md) |
+|   6   | [Spatial Transformations](/graphics/6_spatial_transformations.md) |
 |   7   | [Prefabs y Multiplayer Local](/graphics/7_prefabs_local_multiplayer.md) |
