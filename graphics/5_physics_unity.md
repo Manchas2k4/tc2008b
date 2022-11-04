@@ -1,4 +1,4 @@
-# Introducción a Unity
+# Introducción a Unity Día 2
 
 ## Instrucciones de la sesión
 Durante la sesión veremos el manejo de física y obstáculos en Unity.

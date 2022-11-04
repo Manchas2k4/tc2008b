@@ -1,4 +1,4 @@
-# Introducción a Unity
+# Introducción a Unity Día 3
 
 ## Instrucciones de la sesión
 Durante la sesión veremos la creación de prefabs y la configuración de un juego multiplayer local.
