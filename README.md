@@ -8,3 +8,9 @@ This intermediate computer technologies course focuses on the implementation and
 Upon completion of this educational unit, students will be able to:
 * Generate computer models for solving problems.
 * Implement computer models in the numerical solution of a problem.
+
+## Discord Link
+[Discord](https://discord.gg/4EHXFAc2E3)
+
+## Index
+[Computer Graphics](/graphics/0_README.md)
