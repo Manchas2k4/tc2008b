@@ -24,10 +24,17 @@
 | Clase | Tema        |
 | ----- | ----------- |
 |   ~~1~~   | ~~[Introducción a las gráficas computacionales](/graphics/1_intro_graphics.md)~~ |
-|   ~~2~~   | ~~[Transformación de la Cámara](/graphics/2_intro_unity.md)~~ |
-|   ~~3~~   | ~~[Introducción a Unity](/graphics/3_intro_unity.md)~~ |
-|   ~~4~~   | ~~[Triangles and Sampling](/graphics/4_triangles_and_sampling.md)~~ |
-|   ~~5~~   | ~~[Física y Obstáculos en Unity](/graphics/5_physics_unity.md)~~ |
-|   ~~6~~   | ~~[Spatial Transformations](/graphics/6_spatial_transformations.md)~~ |
-|   7   | [Rotaciones 3D](/graphics/7_rotaciones3d.md) |
-|   8   | [Prefabs y Multiplayer Local](/graphics/8_prefabs_local_multiplayer.md) |
+|   ~~2~~   | ~~[Modelado de Gráficas Computacionales](/graphics/classes/2_modelado_.md)~~ |
+|   ~~3~~   | ~~[Triangles and Sampling](/graphics/classes/3_triangles_and_sampling.md)~~ |
+|   ~~4~~   | ~~[Spatial Transformations](/graphics/classes/4_spatial_transformations.md)~~ |
+| ~~5~~ | ~~[Rotaciones 3D](/graphics/classes/5_rotaciones3d.md)~~ |
+
+
+## Laboratorios 2022
+
+| Laboratorio   | Tema        |
+| ----- | ----------- |
+|   ~~1-1~~   | ~~[Introducción a Unity](/graphics/labs/3_intro_unity.md)~~ |
+|   ~~1-3~~   | ~~[Física y Obstáculos en Unity](/graphics/labs/1_2_physics_unity.md)~~ |
+|   ~~1-3~~   | ~~[Prefabs y Multiplayer Local](/graphics/labs/1_3_prefabs_local_multiplayer.md)~~ |
+|   2   | [Llamadas y conexión API](/graphics/labs/2_llamadas_API.md) |

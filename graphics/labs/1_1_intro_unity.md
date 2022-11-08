@@ -9,7 +9,7 @@ Durante la sesión veremos la introducción a Unity.
 **Nota: Recuerda que el final de los laboratorios de Unity será una de las actividades a entregar, no borres nada de tu código realizado y ve complementando conforme vayas avanzando.**
 
 ## Laboratorio
-[Ver Laboratorio](/graphics/labs/1_starting_unity.md)
+[Ver Laboratorio](/graphics/labs/guides/1_1_starting_unity.md)
 
 ## Entregables
 - La sesión no cuenta con entregables para este tema, sin embargo ve preparando un archivo en donde incluyas lo siguiente.

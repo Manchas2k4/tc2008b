@@ -9,7 +9,7 @@ Durante la sesión veremos la creación de prefabs y la configuración de un jue
 **Nota: Recuerda que el final de los laboratorios de Unity será una de las actividades a entregar, no borres nada de tu código realizado y ve complementando conforme vayas avanzando.**
 
 ## Laboratorio
-[Ver Laboratorio](/graphics/labs/3_prefabs_local_multiplayer_unity.md)
+[Ver Laboratorio](/graphics/labs/guides/1_3_prefabs_local_multiplayer_unity.md)
 
 ## Entregables
 - Hasta el momento el documento entregable que debes tener construido debe contener:

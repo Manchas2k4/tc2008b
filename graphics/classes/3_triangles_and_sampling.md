@@ -1,4 +1,4 @@
-# Modelado de Gráficas Computacionales
+# Tirángulos y Muestreo
 ## Presentación del Tema
 [Ver Presentación](https://docs.google.com/presentation/d/1colyBSlrEd0dT7mqjlrVqb-tN-eoDPEeuSUYXyGa-d4/edit?usp=sharing)
 
