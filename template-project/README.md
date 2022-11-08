@@ -5,8 +5,8 @@
 Se anexa una plantilla de proyecto para la materia TC2008B, esta permite tener la conexión más básica entre el cliente y servidor.
 
 ## Contenido
-- Archivo tc2008B_server.py
-- WebClient.cs
+- [tc2008B_server.py](/template-project/tc2008B_server.py)
+- [WebClient.cs](/template-project/WebClient.cs)
 
 ## Instrucciones
 Descarga los archivos contenidos en esta carpeta, por un lado puedes ejecutar el servidor de python directamente ejecutando en terminal la línea.
