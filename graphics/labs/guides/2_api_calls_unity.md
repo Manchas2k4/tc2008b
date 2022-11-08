@@ -31,6 +31,7 @@ Esperamos a que se haga la creación e importación inicial del proyecto, recuer
 
 Una vez que tenemos nuestro proyecto creado vamos a hacer un pequeño ajuste a la cámara, esto para permitir la visibilidad en nuestro modo de juego.
 
+### Paso 2 Ajustes del proyecto
 Como estamos en un juego 2D, los movimientos en la vista de escena son un poco diferentes, sin embargo notarás que es la misma idea, juega un poco a familiarizarte con los controles, sobre todo el zoom in y zoom out que puedes hacer con **alt+clic derecho**.
 
 Para la cámara la dejaremos en
@@ -98,6 +99,7 @@ Por último vamos al **Inspector** y modificaremos el texto inicial de nuestro T
 
 Ya tenemos todos los elementos de nuestra escena, ahora comencemos con la parte de los Scripts.
 
+### Paso 3 Scripts
 Como buena práctica recuerda crear tu carpeta de Scripts dentro de tu carpeta de Assets. Y desde aquí crearemos un nuevo C# Script que se llamará **ChuckNorris**.
 
 ![graficas](/graphics/assets/img/lab2/18_lab2.png)
@@ -150,6 +152,8 @@ Para finalizar seleccionaremos de la lista donde esta la opción **No function**
 ![graficas](/graphics/assets/img/lab2/24_lab2.png)
 
 Ahora que tenemos la base del proyecto preparada vamos a terminar con los scripts correspondientes.
+
+### Paso 4 Modelos-Entidad
 
 En primer lugar siempre que hablamos de conexiones hacia Bases de Datos o APIs, debemos tener en cuenta las buenas prácticas de las mismas, en este caso cuando hablamos de arquitecturas como MVC (Modelo, Vista Controlador), estamos hablando de la capa de Modelos.
 
@@ -218,6 +222,8 @@ public class Joke
 
 Entonces lo que sucederá es que cuando llamemos la url de nuestra API, como resultado vamos a generar un objeto Joke que ya contenga la información de una manera sencilla para poder trabajarla.
 
+### Paso 5 Modelos-Helpers
+
 Ya que tenemos lista la clase **Joke** crearemos la clase **APIHelper**.
 
 ![graficas](/graphics/assets/img/lab2/25_lab2.png)
@@ -267,6 +273,8 @@ Ya que declaramos nuestro request, lo mandamos llamar y obtenemos un response, e
 Para poder convertir a JSON la respuesta debemos crear un stream de lectura de la respuesta para pasar toda la información al stream y finalmente utilizaremos la clase **JsonUtility** para convertir nuestro Json y mapearlo a nuestra clase propia **Joke**.
 
 Detente a entender bien el código puesto que esto será parte esencial de tu proyecto. Si tienes dudas pregunta a tus profesores.
+
+### Paso 6 Detalles finales
 
 El flujo ya está completo, ahora solo necesitamos terminar de conectar nuesta clase **ChuckNorris** con nuestro **APIHelper**. Si trabajaramos con una arquitectura completa MVC, aquí es donde crearíamos nuestro Controller y sobre esto haríamos la llamada en **ChuckNorris**.
 
