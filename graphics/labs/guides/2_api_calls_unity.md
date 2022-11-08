@@ -244,6 +244,7 @@ using System.IO;
 ```
 Dentro de la clase tendremos lo siguiente.
 
+```
 public static class APIHelper
 {
     public static Joke GetNewJoke()
@@ -259,7 +260,7 @@ public static class APIHelper
         return JsonUtility.FromJson<Joke>(json);
     }
 }
-
+```
 Ahora bien, ¿qué es lo que está pasando? 
 
 En primer lugar estamos creando nuestro request y le estamos pasando la url de nuestra API. Como la llamada es de tipo GET, no necesitamos hacer ningún cambio.
