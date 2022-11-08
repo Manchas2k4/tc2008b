@@ -22,5 +22,5 @@ Durante la sesión veremos la creación de prefabs y la configuración de un jue
   - Listado con explicación y screenshots de los prefabs de obstáculos que hayas realizado.
   - Liga al video con el resultado final de tu proyecto y el nivel diseñado.
   - Reflexión sobre el aprendizaje adquirido en el laboratorio del 03/11/2022 con fecha de realización.
-- El laboratorio será entregado en Canvas a más tardar el Lunes 14/11/2022 antes de las 11:59.
+- El laboratorio será entregado en Canvas a más tardar el Lunes 7/11/2022 antes de las 11:59.
 - Entregas tardías serán sobre 70  dentro de las semanas del curso.
