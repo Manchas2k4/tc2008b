@@ -28,7 +28,7 @@
 |   ~~3~~   | ~~[Triangles and Sampling](/graphics/classes/3_triangles_and_sampling.md)~~ |
 |   ~~4~~   | ~~[Spatial Transformations](/graphics/classes/4_spatial_transformations.md)~~ |
 | ~~5~~ | ~~[Rotaciones 3D](/graphics/classes/5_rotaciones3d.md)~~ |
-| 6 | [Rotaciones 3D](/graphics/classes/6_modelacion3d.md) |
+| 6 | [Modelación 3D](/graphics/classes/6_modelacion3d.md) |
 
 
 ## Laboratorios 2022
