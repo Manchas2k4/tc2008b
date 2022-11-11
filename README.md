@@ -12,5 +12,8 @@ Upon completion of this educational unit, students will be able to:
 ## Discord Link
 [Discord](https://discord.gg/4EHXFAc2E3)
 
+## Template Project
+[Template Project](/template-project/README.md)
+
 ## Index
 [Computer Graphics](/graphics/0_README.md)

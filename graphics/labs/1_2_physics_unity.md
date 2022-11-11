@@ -9,7 +9,7 @@ Durante la sesión veremos el manejo de física y obstáculos en Unity.
 **Nota: Recuerda que el final de los laboratorios de Unity será una de las actividades a entregar, no borres nada de tu código realizado y ve complementando conforme vayas avanzando.**
 
 ## Laboratorio
-[Ver Laboratorio](/graphics/labs/2_physics_unity.md)
+[Ver Laboratorio](/graphics/labs/guides/1_2_physics_unity.md)
 
 ## Entregables
 - Hasta el momento el documento entregable que debes tener construido debe contener:
