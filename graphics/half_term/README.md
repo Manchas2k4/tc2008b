@@ -16,8 +16,8 @@ Como pudiste observar en el video de introducción se toca el tema de los shoote
 2. Revisa con tu profesor el video guía y las rúbricas para cada uno de los caminos.
 3. Durante la sesión deberás indicarle a tu profesor el camino a realizar. La edición se bloqueará a las 7:00pm el lunes 14 de Noviembre de 2022.
 4. Resuelve y desarrolla tu actividad, recuerda que tu solución es propia y tienes flexibilidad para realizarla, cualquier intento de Falta de Integridad Académica hacia tus compañeros o el trabajo hecho por otra persona encontrado en internet será altamente penalizado.
-5. Entrega tu actividad en Canvas siguiendo el lineamiento de entrega para cada uno de los 3 caminos a más tardar el 18 de Noviembre de 2022 antes de las 23:59.
-6. Si quieres que tu solución participe en el concurso sube tu video al foro de discusión en Discord a más tardar el 18 de Noviembre de 2022 antes de las 23:59.
+5. Entrega tu actividad en Canvas siguiendo el lineamiento de entrega para cada uno de los 3 caminos a más tardar el 20 de Noviembre de 2022 antes de las 23:59.
+6. Si quieres que tu solución participe en el concurso sube tu video al foro de discusión en Discord a más tardar el 20 de Noviembre de 2022 antes de las 23:59.
 7. Vota al menos 1 vez por cada uno de los 3 caminos para que entre todos podamos decir quien es el ganador por cada camino.
 
 **Nota: Recuerda que por cada camino el ganador podrá excentar la Actividad del Módulo 6, revisa las ponderaciones del curso si tienes duda.**
