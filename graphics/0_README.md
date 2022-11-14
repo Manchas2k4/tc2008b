@@ -26,11 +26,12 @@
 ## Temario 2022
 | Clase | Tema        |
 | ----- | ----------- |
-|   ~~1~~   | ~~[Introducción a las gráficas computacionales](/graphics/1_intro_graphics.md)~~ |
-|   ~~2~~   | ~~[Modelado de Gráficas Computacionales](/graphics/classes/2_modelado_.md)~~ |
+|   ~~1~~   | ~~[Introducción a las gráficas computacionales](/graphics/classes/1_intro_graphics.md)~~ |
+|   ~~2~~   | ~~[Modelado de Gráficas Computacionales](/graphics/classes/2_modelado.md)~~ |
 |   ~~3~~   | ~~[Triangles and Sampling](/graphics/classes/3_triangles_and_sampling.md)~~ |
 |   ~~4~~   | ~~[Spatial Transformations](/graphics/classes/4_spatial_transformations.md)~~ |
 | ~~5~~ | ~~[Rotaciones 3D](/graphics/classes/5_rotaciones3d.md)~~ |
+| 6 | [Modelación 3D](/graphics/classes/6_modelacion3d.md) |
 
 
 ## Laboratorios 2022
