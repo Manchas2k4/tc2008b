@@ -14,7 +14,7 @@ Como pudiste observar en el video de introducción se toca el tema de los shoote
 1. Esta actividad se divide en 3 posibles caminos, deberás seleccionar uno de los 3 caminos para realizarlo, toma en cuenta tu conocimiento actual, tu disponibilidad de tiempo y tu interés por el área ya que **una vez seleccionado el camino no podrás cambiarlo**.
    **Nota: Tendrás las 4 horas que no corresponden al proyecto de la clase de gráficas para hacer la solución a tu actividad de medio término.**
 2. Revisa con tu profesor el video guía y las rúbricas para cada uno de los caminos.
-3. Durante la sesión deberás entrar al siguiente archivo drive y escribir el camino seleccioando. La edición se bloqueará a las 7:00pm el lunes 14 de Noviembre de 2022.
+3. Durante la sesión deberás indicarle a tu profesor el camino a realizar. La edición se bloqueará a las 7:00pm el lunes 14 de Noviembre de 2022.
 4. Resuelve y desarrolla tu actividad, recuerda que tu solución es propia y tienes flexibilidad para realizarla, cualquier intento de Falta de Integridad Académica hacia tus compañeros o el trabajo hecho por otra persona encontrado en internet será altamente penalizado.
 5. Entrega tu actividad en Canvas siguiendo el lineamiento de entrega para cada uno de los 3 caminos a más tardar el 18 de Noviembre de 2022 antes de las 23:59.
 6. Si quieres que tu solución participe en el concurso sube tu video al foro de discusión en Discord a más tardar el 18 de Noviembre de 2022 antes de las 23:59.
