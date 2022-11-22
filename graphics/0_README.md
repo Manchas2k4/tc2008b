@@ -44,3 +44,4 @@
 |  ~~2~~   | ~~[Llamadas y conexión API](/graphics/labs/2_llamadas_API.md)~~ |
 |  ~~3~~   | ~~[Manejo de Tiempo y Eventos](/graphics/labs/3_manejo_tiempo.md)~~ |
 |  ~~4~~   | ~~[Estructuración de Proyectos](/graphics/labs/4_estructuracion_proyectos.md)~~ |
+|  5   | [Materiales y Texturas](/graphics/labs/5_materiales_texturas.md) |
