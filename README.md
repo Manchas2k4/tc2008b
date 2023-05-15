@@ -9,8 +9,11 @@ Upon completion of this educational unit, students will be able to:
 * Generate computer models for solving problems.
 * Implement computer models in the numerical solution of a problem.
 
+## Intro to this Unit
+[Intro](/slides/00-intro.pdf)
+
 ## Discord Link
-[Discord](https://discord.gg/4EHXFAc2E3)
+[Discord](https://discord.gg/Rub7Wd3SV6)
 
 ## Template Project
 [Template Project](/template-project/README.md)
