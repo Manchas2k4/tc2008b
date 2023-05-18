@@ -381,7 +381,7 @@ Como resultado vemos que los ojos de cada cámara se expanden tal y como lo hace
 
 Ahora seleccionaremos la **Camera** que se encuentra dentro de **Vehiculo** e igualmente modificaremos el **Viewport Rect** en w = 0.5 para dar este mismo efecto en la cámara de primera persona.
 
-Haremos esta misma modificación en el **Player2** pero además de cambiar el **Viewport Rect** en w = 0.5, vamos a modificar el valor en x -0.5.
+Haremos esta misma modificación en el **Player2** pero además de cambiar el **Viewport Rect** en w = 0.5, vamos a modificar el valor en x=0.5.
 
 El resultado es que se alinean las cámaras segun cada jugador, aunque por ahora están en la misma posición.
 
