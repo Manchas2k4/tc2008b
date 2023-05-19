@@ -17,3 +17,6 @@ Upon completion of this educational unit, students will be able to:
 
 ## Index
 [Computer Graphics](/graphics/0_README.md)
+
+## Reto
+[Reto](https://docs.google.com/document/d/1R_nhunLr-6ym4x9ZjrbrAzOPodeqIu2aOiwuSjeoTzo/edit?usp=sharing)
