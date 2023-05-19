@@ -1,4 +1,4 @@
-# Modelaciój 3D
+# Modelación 3D
 ## Presentación del Tema
 [Ver Presentación](https://docs.google.com/presentation/d/1LwrBXWtJlNGnphw2QETIkdnlsJd2WQoG1AxrWrj-ofU/edit#slide=id.g35f391192_00)
 

@@ -1,0 +1,14 @@
+# Fácil
+
+- La solución modela un jefe de un juego tipo bullet hell shooter el cual tiene 3 modos de disparo con una duración de 10 segundos por modo. No es necesario hacer una saturación de balas pero si busca crear patrones diferentes ya sea moviendo al jefe, moviendo los disparadores de las balas o las mismas balas.
+- Se debe tener un control de balas para evitar que se alente la computadora por el número de balas.
+- El reporte escrito deberá incluir una explicación para cada una de las coreografías, tu video y tu reflexión sobre la actividad.
+
+
+| Criterios | Incipiente | Básico | Sólido | Destacado | Pts |
+| --------- | ---------- | ------ | ------ | --------- | --- |
+| Recursos de entrega (Reporte de entrega,url de video de solución,evidencia de voto y comentario en foro de discusión) | No se entrega ninguna de las evidencias y se vota más de una vez en una categoría  (0pts) | Se entregan al menos 1 de las evidencias (1pts) | Se entregan 2 o 3 de las evidencias (2pts) | Se entregan todas las evidencias (5pts) | 5pts |
+| Aplicación de Modelos Computacionales | La aplicación no cuenta con el uso de modelos gráficos (0pts) | La aplicación cuenta con el uso de modelos 2D (1pts) | La aplicación cuenta con el uso de modelos 3D con formas primitivas (rectángulos,pirámides, esferas, cilindros) (3pts) | La aplicación cuenta con el uso de modelos 3D de la tienda de Unity y/o externos o propios (5pts) | 5pts |
+| Aplicación de Transformaciones Gráficas (Traslaciones,Rotaciones, Deformaciones) | La solución presentada no cuenta con el uso de funciones matemáticas para transformaciones gráficas (0pts) | La solución cuenta con 1 función matemática (5pts) | La solución cuenta con 2 funciones matemáticas (10pts) | La solución cuenta con 3 funciones matemáticas (15pts) | 15pts |
+| Optimización de recursos computacionales (Se refiere a un contador de balas actuales) | No existe control visual del número de balas (0pts) | Existe control visual del número de balas pero no coincide con la pantalla de juego (1pts) | Existe control visual del número de balas en pantalla y el nivel de dificultad jugable es simple (20pts) | Existe control visual del número de balas en pantalla y el nivel de dificultad jugable es complejo (25pts) | 25pts |
+| Solución entregada - Juego con al menos 3 coreografías de disparo diferentes de 10 segundos mínimo cada una que pueda ser vencida por un jugador | La solución no cuenta con coreografías, no cumple con el tiempo mínimo entre ellas o es imposible de jugarse (0pts) | La solución cuenta con 1 coreografía que cumple el tiempo mínimo y se puede jugar (15pts) | La solución cuenta con 2 coreografías que cumplen el tiempo mínimo y se pueden jugar (35pts) | La solución cuenta con 3 coreografías que cumplen el tiempo mínimo y se pueden jugar (50pts) | 50pts |
