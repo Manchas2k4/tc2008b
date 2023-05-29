@@ -39,8 +39,7 @@ Como pudiste observar en el video de introducción se toca el tema de los shoote
   - Mushi Hime Sama
 [![Mushi Hime Sama](https://i3.ytimg.com/vi/bf0xkLOlQqw/maxresdefault.jpg)](https://www.youtube.com/watch?v=bf0xkLOlQqw)
   - Ikaruga
-[![Ikaruga](http://i3.ytimg.com/vi/wJ_TugFD8VI/hqdefault.jpg)]
-(https://www.youtube.com/watch?v=wJ_TugFD8VI)
+[![Ikaruga](http://i3.ytimg.com/vi/wJ_TugFD8VI/hqdefault.jpg)](https://www.youtube.com/watch?v=wJ_TugFD8VI)
 
 
 ## Rúbricas
