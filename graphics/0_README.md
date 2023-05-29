@@ -21,7 +21,7 @@
   - [Interactive Computer Graphics with WebGL](https://inspirit.net.in/books/academic/Interactive%20Computer%20Graphics.pdf), E. Angel and D. Shreiner, Pearson; 7th edition, ISBN-13: 978-1292019345. 2014.
 
 ## Actividad Medio Término
-# **[Instrucciones](/graphics/half_term/README.md)**
+**[Instrucciones](/graphics/half_term/README.md)**
 
 ## Temario 2023
 | Clase | Tema                                                                                 |
