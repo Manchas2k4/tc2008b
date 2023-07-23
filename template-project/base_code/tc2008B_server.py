@@ -14,31 +14,17 @@ class Server(BaseHTTPRequestHandler):
         self.end_headers()
         
     def do_GET(self):
-        logging.info("GET request,\nPath: %s\nHeaders:\n%s\n", str(self.path), str(self.headers))
         self._set_response()
         self.wfile.write("GET request for {}".format(self.path).encode('utf-8'))
 
     def do_POST(self):
-        content_length = int(self.headers['Content-Length'])
-        #post_data = self.rfile.read(content_length)
-        post_data = json.loads(self.rfile.read(content_length))
-        #logging.info("POST request,\nPath: %s\nHeaders:\n%s\n\nBody:\n%s\n",
-                     #str(self.path), str(self.headers), post_data.decode('utf-8'))
-        logging.info("POST request,\nPath: %s\nHeaders:\n%s\n\nBody:\n%s\n",
-                     str(self.path), str(self.headers), json.dumps(post_data))
-        
-        x = post_data['x'] * 2
-        y = post_data['y'] * 2
-        z = post_data['z'] * 2
-        
         position = {
-            "x" : x,
-            "y" : y,
-            "z" : z
+            "x" : 1,
+            "y" : 2,
+            "z" : 3
         }
 
         self._set_response()
-        #self.wfile.write("POST request for {}".format(self.path).encode('utf-8'))
         self.wfile.write(str(position).encode('utf-8'))
 
 
