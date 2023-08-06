@@ -40,7 +40,7 @@
 | Laboratorio   | Tema        |
 | ----- | ----------- |
 |   1-1   | [Introducción a Unity](/graphics/labs/1_1_intro_unity.md) |
-|   1-3   | [Física y Obstáculos en Unity](/graphics/labs/1_2_physics_unity.md) |
+|   1-2   | [Física y Obstáculos en Unity](/graphics/labs/1_2_physics_unity.md) |
 |   1-3   | [Prefabs y Multiplayer Local](/graphics/labs/1_3_prefabs_local_multiplayer.md) |
 |  2   | [Llamadas y conexión API](/graphics/labs/2_llamadas_API.md) |
 |  3   | [Manejo de Tiempo y Eventos](/graphics/labs/3_manejo_tiempo.md) |
