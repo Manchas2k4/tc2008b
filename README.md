@@ -22,4 +22,4 @@ Upon completion of this educational unit, students will be able to:
 [Computer Graphics](/graphics/0_README.md)
 
 ## Reto
-[Reto](https://docs.google.com/document/d/1R_nhunLr-6ym4x9ZjrbrAzOPodeqIu2aOiwuSjeoTzo/edit?usp=sharing)
+[Reto](https://github.com/Manchas2k4/tc2008b/blob/main/project-ad2023/Reto%20AD2023.docx)
