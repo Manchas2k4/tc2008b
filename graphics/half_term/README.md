@@ -9,13 +9,16 @@ El objetivo de la actividad es trabajar todos los conceptos vistos hasta el mome
 ## Instrucciones
 Como pudiste observar en el video de introducción se toca el tema de los shooter como un tipo de videojuegos, más allá del juego los shooter utilizan el arte visual como medio para desplegar los disparos que involucran combinaciones de transformaciones computacionales: (traslaciones, rotaciones y deformaciones);
 
-**La actividad es individual y se entrega el viernes 2 de Junio antes de las 23:59.**
+## Calificaciones
+La calificación será reflejada como parte de las competencias en la entrega final condensada.
+
+**La actividad es individual y se entrega el viernes 25 de Agosto antes de las 23:59.**
 
 1. Esta actividad se divide en 3 posibles caminos, deberás seleccionar uno de los 3 caminos para realizarlo, toma en cuenta tu conocimiento actual, tu disponibilidad de tiempo y tu interés por el área ya que **una vez seleccionado el camino no podrás cambiarlo**.
    **Nota: Tendrás las 4 horas que no corresponden al proyecto de la clase de gráficas para hacer la solución a tu actividad de medio término.**
 2. Revisa con tu profesor el video guía y las rúbricas para cada uno de los caminos.
 3. Resuelve y desarrolla tu actividad, recuerda que tu solución es propia y tienes flexibilidad para realizarla, cualquier intento de Falta de Integridad Académica hacia tus compañeros o el trabajo hecho por otra persona encontrado en internet será altamente penalizado.
-4. Entrega tu actividad en Canvas siguiendo el lineamiento de entrega para cada uno de los 3 caminos a más tardar el 2 de Junio de 2023 antes de las 23:59.
+4. Entrega tu actividad en Canvas siguiendo el lineamiento de entrega para cada uno de los 3 caminos en el tiempo establecido.
 
 **Nota: Recuerda que por cada camino el ganador podrá excentar la Actividad del Módulo 6, revisa las ponderaciones del curso si tienes duda.**
 
