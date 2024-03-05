@@ -22,4 +22,4 @@ Upon completion of this educational unit, students will be able to:
 [Computer Graphics](/graphics/0_README.md)
 
 ## Reto
-[Reto](https://github.com/Manchas2k4/tc2008b/blob/main/project-ad2023/Reto%20FJ2024.docx)
+[Reto](https://github.com/Manchas2k4/tc2008b/blob/main/project-fj2024/Reto%20FJ2024.docx)
