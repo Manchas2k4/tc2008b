@@ -20,10 +20,7 @@
   - [Graphics and Visualization: Principles & Algorithms](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Graphics%20and%20Visualization_%20Principles%20%26%20Algorithms%20%5BTheoharis%2C%20Papaioannou%2C%20Platis%20%26%20Patrikalakis%202007-10-10%5D.pdf), T. Theoharis, G. Papaioannou, N. Platis, N. M. Patrikalakis, A K Peters, ISBN-13: 978-1568812748, 2007.
   - [Interactive Computer Graphics with WebGL](https://inspirit.net.in/books/academic/Interactive%20Computer%20Graphics.pdf), E. Angel and D. Shreiner, Pearson; 7th edition, ISBN-13: 978-1292019345. 2014.
 
-## Actividad Medio Término
-[Instrucciones](/graphics/half_term/README.md)
-
-## Temario 2023
+## Temario 2024
 | Clase | Tema                                                                                 |
 | ----- | ------------------------------------------------------------------------------------ |
 |   1   | [Introducción a las gráficas computacionales](/graphics/classes/1_intro_graphics.md) |
@@ -35,7 +32,7 @@
 
 
 
-## Laboratorios 2023
+## Laboratorios 2024
 
 | Laboratorio   | Tema        |
 | ----- | ----------- |
