@@ -8,14 +8,14 @@ La mayor parte del contenido que veremos será enfocado al desarrollo 3D. Sin em
 ## Instrucciones
 Sigue los pasos descritos en la siguiente práctica, si tienes algún problema no olvides que tus profesores están para apoyarte.
 
-**Nota 1: Todo lo realizado tiene la misma aplicación ya sea Windos, Mac o Linux puede ser que algunos menús u opciones estén localizados en un lugar diferente al desplegado como referencia que es Windows**
+**Nota 1: Todo lo realizado tiene la misma aplicación ya sea Windows, Mac o Linux puede ser que algunos menús u opciones estén localizados en un lugar diferente al desplegado como referencia que es Windows**
 
 
 **Nota 2: Este curso práctico inicial, esta basado en las guías iniciales de Unity Learning, si tienes alguna duda o quieres saber más al respecto revisa los tutoriales de Unity oficiales, tienen muy buena documentación al respecto y te permiten avanzar rapidamente en la plataforma**
 
 ## Laboratorio
 ### Paso 1 Crear un nuevo proyecto
-Nosotros podemos crear un nuevo proyecto en Unity en cualquier lugar de nuestra computadora, si bien puede detectar alguna carpeta default, podemos sobreescribir este comportamiento y ajustarlo a donde nosotros queramos.
+Nosotros podemos crear un nuevo proyecto en Unity en cualquier lugar de nuestra computadora, si bien puede detectar alguna carpeta default, podemos sobre escribir este comportamiento y ajustarlo a donde nosotros queramos.
 
 En primera instancia vamos a crear una carpeta nueva donde queramos guardar nuestro proyecto.
 
@@ -29,7 +29,7 @@ En caso de que existieran más versiones de Unity instaladas al momento de dar c
 
 ![graficas](/graphics/assets/img/3_lab1.png)
 
-**Nota Importante: Asegurate que tú y tu equipo tengán la misma versión ya que las diferencias empiezan a generar conflictos al momento de cargar y abrir sobretodo si es entre diferentes SO**
+**Nota Importante: Asegúrate que tú y tu equipo tengan la misma versión ya que las diferencias empiezan a generar conflictos al momento de cargar y abrir sobretodo si es entre diferentes SO**
 
 Una vez seleccionado el nuevo proyecto podremos ver que hay una gran cantidad de plantillas con las que podemos realizar un proyecto, en este caso nos vamos directamente con la opción 3D core.
 
@@ -45,7 +45,7 @@ Si quieres poner otro nombre te daré un poco de contexto de que trata el labora
 
 > Crearemos una escena con un vehículo el cual sigue una carretera de 2 carriles y a la cual iremos agregando diferentes obstáculos para ir evitándolos
 
-Una vez con todo listo damos click en Crear Proyecto y esperamos a que empieze a generarse el proyecto. Ojo: La primera carga puede tomar un tiempo.
+Una vez con todo listo damos click en Crear Proyecto y esperamos a que empiece a generarse el proyecto. Ojo: La primera carga puede tomar un tiempo.
 
 ![graficas](/graphics/assets/img/6_lab1.png)
 ![graficas](/graphics/assets/img/7_lab1.png)
@@ -54,7 +54,7 @@ El resultado final será el editor listo para poder empezar a cargar nuestros ar
 
 ![graficas](/graphics/assets/img/8_lab1.png)
 
-Igualmente si revisamos nuestra carperta del proyecto podremos ver los diferentes archivos que nos crea Unity por default para nuestro proyecto.
+Igualmente si revisamos nuestra carpeta del proyecto podremos ver los diferentes archivos que nos crea Unity por default para nuestro proyecto.
  
 ![graficas](/graphics/assets/img/9_lab1.png)
 
@@ -87,9 +87,9 @@ Al agregarlo al proyecto, dentro de unity veras que te aparece la siguiente list
 
 ![graficas](/graphics/assets/img/13_lab1.png)
 
-Lo importante a destacar aquí es que si bien puedes agregar modelos, texturas, sonidos y demás artefactos al proyecto de manera individual, existen estas carpetas ya preparadas que contienen librerías completas de assets, que tan completas esten depende de quien las haga y puedes verlo como sets completos con los que puedes hacer cosas, si bien es la forma ideal de trabajar con unity para obtener materiales, lo triste es que esto no siempre será así. Por ahora es lo único que necesitamos.
+Lo importante a destacar aquí es que si bien puedes agregar modelos, texturas, sonidos y demás artefactos al proyecto de manera individual, existen estas carpetas ya preparadas que contienen librerías completas de assets, que tan completas estén depende de quien las haga y puedes verlo como sets completos con los que puedes hacer cosas, si bien es la forma ideal de trabajar con unity para obtener materiales, lo triste es que esto no siempre será así. Por ahora es lo único que necesitamos.
 
-Da clic en Importar y espera a que se agregen los assets al proyecto.
+Da clic en Importar y espera a que se agreguen los assets al proyecto.
 
 Si pudiste notar al finalizar la importación se agrega una nueva carpeta a nuestro espacio de trabajo.
 
@@ -117,9 +117,9 @@ Y veremos que al cargarse se abre de manera automática nuestra escena que conti
 
 Uno de los puntos más importantes que deberás aprender sobre Unity es como poder moverte a través de las escenas, y esto para poder ajustarte donde tu lo necesitas en el proyecto.
 
-Para empezar con algo simple muevete a través de la escena con tu mouse.
+Para empezar con algo simple muévete a través de la escena con tu mouse.
 
-Si das clic izquierdo veras que intenta seleccionar cosas, si por error mueves algo puedez usar **ctrl+z**. Para movernos da clic derecho y empieza a maniobrar la cámara que tenemos de visibilidad. Notarás que no avanza, y esto es por el modo que tenemos seleccionado. Interactua un poco a que la pocisión quede de tal forma que te acomodes a ver lo más que se pueda de nuestro mundo.
+Si das clic izquierdo veras que intenta seleccionar cosas, si por error mueves algo puedes usar **ctrl+z**. Para movernos da clic derecho y empieza a maniobrar la cámara que tenemos de visibilidad. Notarás que no avanza, y esto es por el modo que tenemos seleccionado. Interactúa un poco a que la posición quede de tal forma que te acomodes a ver lo más que se pueda de nuestro mundo.
 
 ![graficas](/graphics/assets/img/20_lab1.png)
 
@@ -129,7 +129,7 @@ Ahora bien, para continuar con nuestro trabajo, eliminaremos la escena Sample qu
 
 Damos clic en la escena, después suprimir y aceptamos el mensaje de eliminarlo, como resultado tenemos que en nuestra carpeta **Scenes** solo está la escena del **Prototype 1**
 
-Para continuar con la navegación, seleccionaremos nuestra escena nuevamente y ahora nos moveremos con **las flechas del teclado** para movilizar la cámara de un lado a otro. Esto en conjunto con el pocisionamiento del ratón usando el clic derecho nos permite maniobrar por todo nuestro mundo para poder movernos.
+Para continuar con la navegación, seleccionaremos nuestra escena nuevamente y ahora nos moveremos con **las flechas del teclado** para movilizar la cámara de un lado a otro. Esto en conjunto con el posicionamiento del ratón usando el clic derecho nos permite maniobrar por todo nuestro mundo para poder movernos.
 
 ![graficas](/graphics/assets/img/22_lab1.png)
 
@@ -137,21 +137,21 @@ Si te mueves muy lejos de la base de la carretera con las flechas notarás algo 
 
 Los mundos no son infinitos, tienen límites, y en este caso nuestro mundo es como una gran esfera que representa nuestra escena, siempre y cuando respetemos esos límites nuestro mundo usará la textura que estamos viendo en el editor.
 
-Las escenas y sus elementos son espacios especiales que se crean en Unity para crear esta base de mundos, si hablamos de un juego donde hay varios niveles, necesitariamos crear estas geodas con los diferentes elementos que conformarían cada nivel en particular.
+Las escenas y sus elementos son espacios especiales que se crean en Unity para crear esta base de mundos, si hablamos de un juego donde hay varios niveles, necesitaríamos crear estas geodas con los diferentes elementos que conformarían cada nivel en particular.
 
 Con todo esto tenemos los elementos más básicos para poder trabajar en nuestro proyecto.
 
 > Si te preguntas por que no modelamos toda la escena desde 0 esto tiene una razón muy sencilla, la primera es que el curso de estos laboratorios es para revisar físicas, movimientos y funcionalidades en Unity y no como tal modelado ya que es igualmente toda una área de aprendizaje. Por eso mismo utilizamos modelos que se pueden obtener incluso de manera gratuita en la tienda de Unity
 
-**Nota: Si moviste algo, trata de regresarlo a su lugar con ctrl+z esto para evitar que vaya a haber problemas con lo que veremos más adelante.**
+**Nota: Si moviste algo, trata de hacer que vuelva a su lugar con ctrl+z esto para evitar que vaya a haber problemas con lo que veremos más adelante.**
 
-**Nota 2: Te invito a crear aparte un proyecto adicional usando lo mismo que hicimos hasta este punto, pero en ese si mueve todo lo que puedas hasta romper la escena si es necesario, así le tendrás menos miedo a moverle y ver como recuperarte de algún movimiento inesperado como pudiera existir en tu proyecto.**
+**Nota 2: Te invito a crear aparte un proyecto adicional usando lo mismo que hicimos hasta este punto, pero en ese si mueve todo lo que puedas hasta romper la escena si es necesario, así le tendrás menos miedo a mover las propiedades y ver como recuperarte de algún movimiento inesperado como pudiera existir en tu proyecto.**
 
 ## Paso 4 Agregando vehículos
 
 En nuestro proyecto abriremos la carpeta de **Course Library** y de primera mano observemos que contamos con los diferentes elementos o bloques que podemos usar para hacer nuestro proyecto, de manera directa nos iremos a la carpeta de **Vehicles** y seleccionaremos la camioneta para empezar.
 
-Para agregar un objeto podemos seleccionarlo y arrastrarlo a la escena, o en su defecto podemos dar doble clic, la diferencia entre uno y otro es que si lo arrastramos nosotros controlaremos donde aparecerá, si damos doble clic se pocisionará automáticamente en las coordenadas 0,0,0.
+Para agregar un objeto podemos seleccionarlo y arrastrarlo a la escena, o en su defecto podemos dar doble clic, la diferencia entre uno y otro es que si lo arrastramos nosotros controlaremos donde aparecerá, si damos doble clic se posicionará automáticamente en las coordenadas 0,0,0.
 
 ![graficas](/graphics/assets/img/23_lab1.png)
 
@@ -165,7 +165,7 @@ Juega un poco y agrega todos los vehículos a la escena para que te familiarices
 
 Una vez que hayas experimentado completamente, borra todos los vehículos para dejar la escena como estaba inicialmente.
 
-Ahora nuevamente agregaremos la camioneta que viene en la carpeta de vehículos para tene algo como lo siguiente.
+Ahora nuevamente agregaremos la camioneta que viene en la carpeta de vehículos para tener algo como lo siguiente.
 
 ![graficas](/graphics/assets/img/26_lab1.png)
 
@@ -177,29 +177,29 @@ Ahora bien, por comodidad acomodaremos nuestro vehículo de la siguiente forma e
 
 ![graficas](/graphics/assets/img/27_lab1.png)
 
-Al seleccionarlo te darás cuenta que se selecciona el objeto y nos muestra como esta construido, esto se ve más al tipo de imágenes que nos presentan en el desarrollo de elementos 3D. Una forma de navergar rapidamente al elemento y centrarlo es utilizando la tecla **f** esto nos acerca a las coordenadas centrales donde se encuentra el objeto.
+Al seleccionarlo te darás cuenta que se selecciona el objeto y nos muestra como esta construido, esto se ve más al tipo de imágenes que nos presentan en el desarrollo de elementos 3D. Una forma de navegar rápidamente al elemento y centrarlo es utilizando la tecla **f** esto nos acerca a las coordenadas centrales donde se encuentra el objeto.
 
 ![graficas](/graphics/assets/img/28_lab1.png)
 
->Como ya mencionamos el curso no está orientado a diseño, pero algo importante que debes saber, es que si quieres dar detalle a los elementos es que cada uno debe ser un elemento independiente, piensalo como en bloques de lego, si te diera un carro ya hecho, se ve bien pero no puedo moverlo directamente puesto que todas las piezas son una misma, al contrario si te doy cada parte individual como las llantas, las ventanas e incluso si nos vamos a mayor nivel de detalle el motor, los tornillos, etc. Podemos llegar a un nivel de detalle muy amplio. El que tanto ya depende del juego en sí, y obviamente entre mayor nivel de detalle aumenta la carga que tenemos que ejecutar a la computadora para correr elementos, así que encontrar un nivel equilibrado entre elementos es la clave de buenos videojuegos. En clase veremos algunos trucos para hacer detalle sin que esto signifique matar la computadora a nivel de recursos.
+>Como ya mencionamos el curso no está orientado a diseño, pero algo importante que debes saber, es que si quieres dar detalle a los elementos es que cada uno debe ser un elemento independiente, piénsalo como en bloques de lego, si te diera un carro ya hecho, se ve bien pero no puedo moverlo directamente puesto que todas las piezas son una misma, al contrario si te doy cada parte individual como las llantas, las ventanas e incluso si nos vamos a mayor nivel de detalle el motor, los tornillos, etc. Podemos llegar a un nivel de detalle muy amplio. El que tanto ya depende del juego en sí, y obviamente entre mayor nivel de detalle aumenta la carga que tenemos que ejecutar a la computadora para correr elementos, así que encontrar un nivel equilibrado entre elementos es la clave de buenos videojuegos. En clase veremos algunos trucos para hacer detalle sin que esto signifique matar la computadora a nivel de recursos.
 
-**Nota: Al centrar elementos, nota que todos los objetos tienen un centro, este se llama el punto de anclaje, estos nos sirven para que al pocisionar el objeto este se acomode en las coordenadas que le decimos. Siempre, siempre, siempre cuida esto, a veces al modelar las personas pueden llegar a mover este punto de anclaje por decir en el caso de la camioneta, en vez del centro a la llanta, y esto cambía drasticamente la pocisión, si bien se puede trabajar así, necesitarías modificar todo el pocisionamiento, por lo que se recomienda colocar el punto de anclaje en un lugar que sea natural, por lo general el centro, para que tenga sentido el acomodo. No es tán visible solo describirlo, pero creeme que es un dolor de cabeza cuando sucede.**
+**Nota: Al centrar elementos, nota que todos los objetos tienen un centro, este se llama el punto de anclaje, estos nos sirven para que al posicionar el objeto este se acomode en las coordenadas que le decimos. Siempre, siempre, siempre cuida esto, a veces al modelar las personas pueden llegar a mover este punto de anclaje por decir en el caso de la camioneta, en vez del centro a la llanta, y esto cambia drásticamente la posición, si bien se puede trabajar así, necesitarías modificar todo el posicionamiento, por lo que se recomienda colocar el punto de anclaje en un lugar que sea natural, por lo general el centro, para que tenga sentido el acomodo. No es tán visible solo describirlo, pero créeme que es un dolor de cabeza cuando sucede.**
 
 Otros comandos para el manejo de nuestra cámara los podremos notar haciendo lo siguiente.
 
-Si presionamos la tecla **Alt** y damos **clic izquierdo** podremos rotar la camara alrededor del elemento que tenemos seleccionado.
+Si presionamos la tecla **Alt** y damos **clic izquierdo** podremos rotar la cámara alrededor del elemento que tenemos seleccionado.
 
 Si presionamos la tecla **Alt** y damos **clic derecho** podremos hacer zoom in o zoom out.
 
 ### Paso 5 Agregando Obstáculos
 
-En base a lo que hicimos en el paso anterior, entra a la carpeta de **Obstacles** dentro de nuestro **Course Library** y nuevamente te invito a explorar, jugar y colorar los diferentes objetos de obstáculos que tienes a tu dispocisión.
+En base a lo que hicimos en el paso anterior, entra a la carpeta de **Obstacles** dentro de nuestro **Course Library** y nuevamente te invito a explorar, jugar y colorar los diferentes objetos de obstáculos que tienes a tu disposición.
 
 Una vez que hayas explorado lo suficiente, borra todos los obstáculos que hayas agregado. Y para nuestro caso agregaremos una caja.
 
 ![graficas](/graphics/assets/img/29_lab1.png)
 
-Como podrás observar, coloqué la caja adelante del carro, pero veamos como puedo pocisionar rapidamente un elemento en 0,0,0.
+Como podrás observar, coloqué la caja adelante del carro, pero veamos como puedo posicionar rápidamente un elemento en 0,0,0.
 
 Me iré al inspector del lado izquierdo de Unity y buscaré la opción de **Transform.**
 
@@ -209,17 +209,17 @@ En esta opción daremos clic en los 3 puntitos y seleccionaremos reset.
 
 ![graficas](/graphics/assets/img/31_lab1.png)
 
-Esto cambiará la pocisión de nuestra caja a 0,0,0.
+Esto cambiará la posición de nuestra caja a 0,0,0.
 
 ![graficas](/graphics/assets/img/32_lab1.png)
 
-El reset que seleccionamos, cambia toda la propiedad de transform, pero igualmente veremos que podemos hacer un reset solo a la pocisión, la rotación y la escala individualmente.
+El reset que seleccionamos, cambia toda la propiedad de transform, pero igualmente veremos que podemos hacer un reset solo a la posición, la rotación y la escala individualmente.
 
 Ahora, vamos a esconder nuestra camioneta de la siguiente manera. Dentro de la jerarquía seleccionamos nuestra camioneta.
 
 ![graficas](/graphics/assets/img/33_lab1.png)
 
-Después nos iremos al inspector y en la parte superior donde viene el nombre de nuestro objeto deseleccionaremos la opción.
+Después nos iremos al inspector y en la parte superior donde viene el nombre de nuestro objeto quitaremos la selección a la opción.
 
 ![graficas](/graphics/assets/img/34_lab1.png)
 
@@ -229,11 +229,11 @@ Como resultado nuestra camioneta sigue estando en la escena pero estará oculta.
 
 Ahora vamos a explicar un poco sobre los planos x,y,z. Pero primero para poder hacerlo vamos a acomodar nuestra cámara para poder explicarlo.
 
-Notarás que en la escena tenemos una especio de cubo con pirámides, este nos permite pocisionar exactamente el plano según el eje seleccionado.
+Notarás que en la escena tenemos una especie de cubo con pirámides, este nos permite posicionar exactamente el plano según el eje seleccionado.
 
 ![graficas](/graphics/assets/img/36_lab1.png)
 
-Vamos a dar click en el eje y que está en verde y la cámara se debe pocisionar como a continuación se muestra.
+Vamos a dar click en el eje y que está en verde y la cámara se debe posicionar como a continuación se muestra.
 
 ![graficas](/graphics/assets/img/37_lab1.png)
 
@@ -247,9 +247,9 @@ Por ejemplo: Si muevo la flecha azul, empezaré a mover en el eje z, de hecho si
 
 ![graficas](/graphics/assets/img/39_lab1.png)
 
-> Puedes estarte preguntando, por que se tiene esta alineación, si lo ideal sería que el eje y y el eje z estén invertidos. La respuesta es que no hay una sola forma de hacerlo. Si bien lo ideal es maneralo así depende de como se modele la escena para seguir las coordenadas, por que incluso se podría inclinar o rotar para que no hiciera match con nada, obviamente esto haría más complejo el poder trabajarlo, por lo que normalmente con que se pueda alinear a los ejes sin importar el orden es suficiente.
+> Puedes estarte preguntando, por que se tiene esta alineación, si lo ideal sería que el eje y y el eje z estén invertidos. La respuesta es que no hay una sola forma de hacerlo. Si bien lo ideal es manejarlo así depende de como se modele la escena para seguir las coordenadas, por que incluso se podría inclinar o rotar para que no hiciera match con nada, obviamente esto haría más complejo el poder trabajarlo, por lo que normalmente con que se pueda alinear a los ejes sin importar el orden es suficiente.
 
-Para finalizar coloca nuestra caja en la pocisión z en la coordenada 25. Debiendo quedar en 0,0,25.
+Para finalizar coloca nuestra caja en la posición z en la coordenada 25. Debiendo quedar en 0,0,25.
 
 ![graficas](/graphics/assets/img/40_lab1.png)
 
@@ -264,7 +264,7 @@ Por lo tanto vamos a renombrar los elementos. Teniendo la camioneta seleccionada
 ![graficas](/graphics/assets/img/42_lab1.png)
 ![graficas](/graphics/assets/img/43_lab1.png)
 
-El resultado será que en nuestra jerarquía podremos identificar más facilmente nuestro objetos.
+El resultado será que en nuestra jerarquía podremos identificar más fácilmente nuestro objetos.
 
 ![graficas](/graphics/assets/img/44_lab1.png)
 
@@ -290,7 +290,7 @@ Por último tenemos nuestro environment el cual como ya habíamos explicado nos 
 
 ![graficas](/graphics/assets/img/48_lab1.png)
 
-Regresando al **game view** como mencionabamos esta vista es lo que vamos a ver cuando estemos jugando. Para habilitarlo va a ser el correspondiente a ejecutar nuestro proyecto y esto lo podemos hacer dando clic en el botón de play.
+Regresando al **game view** como mencionábamos esta vista es lo que vamos a ver cuando estemos jugando. Para habilitarlo va a ser el correspondiente a ejecutar nuestro proyecto y esto lo podemos hacer dando clic en el botón de play.
 
 ![graficas](/graphics/assets/img/49_lab1.png)
 
@@ -300,9 +300,9 @@ Como resultado tendremos lo siguiente.
 
 ![graficas](/graphics/assets/img/50_lab1.png)
 
-Si ves el color de mi Unity es como azulado, en tu caso debe aparecer como grisaceo, no te preocupes, más adelante te diré como personalizar esto.
+Si ves el color de mi Unity es como azulado, en tu caso debe aparecer como grisáceo, no te preocupes, más adelante te diré como personalizar esto.
 
-Lo importante ahora es que veas que esta seleccionada la vista de game y que la cámara que vemos es completamente diferente, incluso si intenamos movernos no será posible puesto que no hemos programado ningún tipo de movimiento en el juego tanto para nuestros objetos como para nuestra cámara.
+Lo importante ahora es que veas que esta seleccionada la vista de game y que la cámara que vemos es completamente diferente, incluso si intentamos movernos no será posible puesto que no hemos programado ningún tipo de movimiento en el juego tanto para nuestros objetos como para nuestra cámara.
 
 Para detener el modo juego da clic nuevamente en el icono de play con esto Unity volverá a sus colores normales.
 
@@ -316,21 +316,21 @@ Como podrás sospechar la vista de cámara esta directamente relacionada con el 
 
 La cámara cubre lo que se tiene en la **Main Camera** y las líneas que lo acompañan son la línea de visión que tienen.
 
-Ahora, decimos que la cámara esta directamente relacionada a la **Game View** por que si movemos la cámara hacia la derecha, en el previsualizador, podemos empezar a ver nuestro obstáculo. Igualmente si empezaramos a jugar con la cámara podemos acomodarla en cualquier punto del juego.
+Ahora, decimos que la cámara esta directamente relacionada a la **Game View** por que si movemos la cámara hacia la derecha, en el pre visualizador, podemos empezar a ver nuestro obstáculo. Igualmente si empezáramos a jugar con la cámara podemos acomodarla en cualquier punto del juego.
 
 ![graficas](/graphics/assets/img/53_lab1.png)
 
-Lo que haremos ahora será tratar de pocisionar la cámara detrás de nuestro vehículo a que quede más o menos de esta forma.
+Lo que haremos ahora será tratar de posicionar la cámara detrás de nuestro vehículo a que quede más o menos de esta forma.
 
 ![graficas](/graphics/assets/img/54_lab1.png)
 
-Para hacerlo intenta mover la cárama de forma manual para poder hacer todos estos movimientos. Esto para que puedas explorar todos estos elementos.
+Para hacerlo intenta mover la cámara de forma manual para poder hacer todos estos movimientos. Esto para que puedas explorar todos estos elementos.
 
 Para ayudarte vamos a ver como rotar la cámara puesto esta viendo de frente al vehículo y lo queremos desde atrás.
 
-Pocisionamos la cámara en x=0,y=2,z=-5
+Posicionamos la cámara en x=0,y=2,z=-5
 
-Para rotarla usaremos las opciones de rotación de la escena, con nuestra cámara seleccionada haremos lo siguiente.
+Para rotar la cámara, usaremos las opciones de rotación de la escena, con nuestra cámara seleccionada haremos lo siguiente.
 
 ![graficas](/graphics/assets/img/55_lab1.png)
 
@@ -357,7 +357,7 @@ Para esto nos sirven los **layouts** o plantillas, estas nos permiten modificar 
 
 ![graficas](/graphics/assets/img/59_lab1.png)
 
-Como puedes observar tenemos algunos predefinidos, observa los dierentes ajustes que podemos obtener.
+Como puedes observar tenemos algunos predefinidos, observa los diferentes ajustes que podemos obtener.
 
 ![graficas](/graphics/assets/img/60_lab1.png)
 
@@ -393,11 +393,11 @@ La ruta de guardado puede ser donde sea, pero para mantener la administración, 
 
 ![graficas](/graphics/assets/img/69_lab1.png)
 
-Y con esto si llegaramos a cambiar la plantilla, solo necesitamos volverla a cargar en  **Loa Layout from File** y esto regresará a como lo habíamos dejado.
+Y con esto si llegáramos a cambiar la plantilla, solo necesitamos volverla a cargar en  **Loa Layout from File** y esto regresará a como lo habíamos dejado.
 
 ### Paso 8 Primer Script
 
-Para seguir con nuestro proyecto nos iremos a la sección del Proyecto y enla carpeta de assets crearemos un nuevo folder.
+Para seguir con nuestro proyecto nos iremos a la sección del Proyecto y en la carpeta de assets crearemos un nuevo folder.
 
 ![graficas](/graphics/assets/img/70_lab1.png)
 
@@ -437,7 +437,7 @@ Si haces lo mismo que yo en cuestión de visualizar en Visual Studio Code u otro
 
 Ahora vamos a revisar un poco el código que se genera de manera automática.
 
-En primer lugar tenemos las librerías básicas de imports como lo tendriamos en otros lenguajes como C++,Java,Kotlin,etc.
+En primer lugar tenemos las librerías básicas de imports como lo tendríamos en otros lenguajes como C++,Java,Kotlin,etc.
 
 ```
 using System.Collections;
@@ -445,7 +445,7 @@ using System.Collections.Generic;
 using UnityEngine;
 ```
 
-Después tenemos la inicialización de nuestra clase y observaremos que está heredando de la clase MonoBehavior, de momento no entraremos en detalles de la sintáxis de C#, eso lo haremos un poco más adelante.
+Después tenemos la inicialización de nuestra clase y observaremos que está heredando de la clase MonoBehavior, de momento no entraremos en detalles de la sintaxis de C#, eso lo haremos un poco más adelante.
 
 ```
 public class PlayerController : MonoBehaviour
@@ -469,14 +469,14 @@ void Update()
 }
 ```
 
-Vamos a reflexionar un momento y piensa, si quisieramos hacer que nuestro vehículo avance, en que método lo haríamos.
+Vamos a reflexionar un momento y piensa, si quisiéramos hacer que nuestro vehículo avance, en que método lo haríamos.
 
 Si mencionaste el update, es lo correcto, por ahora añadiremos solo un pequeño comentario.
 
 ```
 void Update()
 {
-    //Mover vehiculo hacia adelante
+    //Mover vehículo hacia adelante
 }
 ```
 
@@ -486,7 +486,7 @@ Lo primero que haremos será añadir la siguiente línea para decirle que se mue
 ```
 void Update()
 {
-    //Mover vehiculo hacia adelante
+    //Mover vehículo hacia adelante
     transform.Translate(0,0,1);
 }
 ```
@@ -495,17 +495,17 @@ Intenta correr el juego y ve que es lo que sucede.
 
 Si todo salió bien el carro sale volando y desaparece de la vista.
 
-La línea de mover la pocisión ya vimos que nos funciona para poder trabajar, pero si quisieramos ahcer cambios más drásticos en las pocisiones necesitariamos declarar cada vez los ejes x,y,z.
+La línea de mover la posición ya vimos que nos funciona para poder trabajar, pero si quisiéramos hacer cambios más drásticos en las posiciones necesitaríamos declarar cada vez los ejes x,y,z.
 ```
 transform.Translate(0,0,1);
 ```
 
-Para evitar estar escribiendolo directamente, vamos a utilizar una clase por default de Unity llamada Vector3, que en este caso simula un Vector 3D, la teoría la veremos en clase, pero este vector permite manipular la magnitud en este caso de las coordenadas x,y,z de una manera más limpia y fácil. Así bien, nuestro código quedaría de la siguiente manera.
+Para evitar estar escribiéndolo directamente, vamos a utilizar una clase por default de Unity llamada Vector3, que en este caso simula un Vector 3D, la teoría la veremos en clase, pero este vector permite manipular la magnitud en este caso de las coordenadas x,y,z de una manera más limpia y fácil. Así bien, nuestro código quedaría de la siguiente manera.
 
 ```
 void Update()
 {
-    //Mover vehiculo hacia adelante
+    //Mover vehículo hacia adelante
     //transform.Translate(0,0,1);
     transform.Translate(Vector3.forward);
 }
@@ -513,4 +513,4 @@ void Update()
 
 Si ejecutamos nuevamente veremos el mismo resultado, el vehículo saliendo disparado hacia la nada.
 
-De momento lo dejaremos por aquí, en el próximo laboratorio seguiremos ajustando los detalles como la velocidad, gravedar y manejo de nuestro vehículo.
+De momento lo dejaremos por aquí, en el próximo laboratorio seguiremos ajustando los detalles como la velocidad, gravedad y manejo de nuestro vehículo.

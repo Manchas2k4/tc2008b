@@ -4,7 +4,7 @@
 Durante la sesión veremos como un proyecto de Unity puede conectarse a un API, esto abre la posibilidad a conectar con BD o sistemas externos al juego.
 
 - Pon atención a las recomendaciones iniciales para el manejo de Unity.
-- Elabora la práctica durante la sesión, si tienes dudas acercate con tus profesores.
+- Elabora la práctica durante la sesión, si tienes dudas acércate con tus profesores.
 
 
 ## Laboratorio

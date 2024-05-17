@@ -4,7 +4,7 @@
 Durante la sesión veremos como un proyecto de Unity puede manejar el tiempo a forma de simulación, y también como en periodos de tiempo se pueden lanzar eventos recibidos por otros objetos para ejecutar acciones.
 
 - Pon atención a las recomendaciones iniciales para el manejo de Unity.
-- Elabora la práctica durante la sesión, si tienes dudas acercate con tus profesores.
+- Elabora la práctica durante la sesión, si tienes dudas acércate con tus profesores.
 
 
 ## Laboratorio

@@ -4,7 +4,7 @@
 Durante la sesión veremos la introducción a Unity.
 
 - Pon atención a las recomendaciones iniciales para el manejo de Unity.
-- Elabora la práctica durante la sesión, si tienes dudas acercate con tus profesores.
+- Elabora la práctica durante la sesión, si tienes dudas acércate con tus profesores.
 
 **Nota: Recuerda que el final de los laboratorios de Unity será una de las actividades a entregar, no borres nada de tu código realizado y ve complementando conforme vayas avanzando.**
 
