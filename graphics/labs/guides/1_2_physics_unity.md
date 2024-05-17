@@ -19,38 +19,38 @@ Para comenzar, abre el script de **PlayerController** y desde donde nos quedamos
 Time.deltaTime
 ```
 
-Esta clase y función será muy útil para nosotros, pues para lo que nos sirve es que es el intervalo de tiempo que hay entre cada uno de los fotogramas, esto quiere decir para la función Update cada cuanto tiempo se está llamando, algo importante a notar es que este intervalo es muy pequeño e incluso se mide en milisegundos. Lo que haremos con este intervalo es el "realentizar" y esto es solo a nivel visual puesto a que realmente no se está modificando, en otro término sería ajustar la velocidad al tiempo el cual está corriendo nuestro juego.
+Esta clase y función será muy útil para nosotros, pues para lo que nos sirve es que es el intervalo de tiempo que hay entre cada uno de los fotogramas, esto quiere decir para la función Update cada cuanto tiempo se está llamando, algo importante a notar es que este intervalo es muy pequeño e incluso se mide en milisegundos. Lo que haremos con este intervalo es el "ralentizar" y esto es solo a nivel visual puesto a que realmente no se está modificando, en otro término sería ajustar la velocidad al tiempo el cual está corriendo nuestro juego.
 
 Entonces, para involucrar el tiempo al código que ya tenemos lo único que debemos hacer es lo siguiente.
 
 ```
 void Update()
 {
-    //Mover vehiculo hacia adelante
+    //Mover vehículo hacia adelante
     //transform.Translate(0,0,1);
     transform.Translate(Vector3.forward * Time.deltaTime);
 }
 ```
 
-Si ejecutamos el proyecto nos daremos cuenta que si hay un cambio significativo, ahora la camioneta va demasiado lento. Ahora lo que resta es jugar un poco con los valores para saber que tando queremos aumentar la velocidad, y esto nos permitar parametrizar la velocidad o incluso si somos creativos crear toda una caja de velocidades para nuestro vehículo.
+Si ejecutamos el proyecto nos daremos cuenta que si hay un cambio significativo, ahora la camioneta va demasiado lento. Ahora lo que resta es jugar un poco con los valores para saber que tanto queremos aumentar la velocidad, y esto nos permita parametrizar la velocidad o incluso si somos creativos crear toda una caja de velocidades para nuestro vehículo.
 
 Para nuestro caso multiplica por un valor de 5 unidades y vuelve a correr para empezar a ver una diferencia.
 
 ```
 void Update()
 {
-    //Mover vehiculo hacia adelante
+    //Mover vehículo hacia adelante
     //transform.Translate(0,0,1);
     transform.Translate(Vector3.forward * Time.deltaTime * 5);
 }
 ```
 
-Si queremos tomar un cierto estándar podemos decir que sería un valor de 20, entonces vamos a actualizarlo y observa que el movimiento se ve un poco más creíble a lo que pudieramos esperar de un videojuego.
+Si queremos tomar un cierto estándar podemos decir que sería un valor de 20, entonces vamos a actualizarlo y observa que el movimiento se ve un poco más creíble a lo que pudiéramos esperar de un videojuego.
 
 ```
 void Update()
 {
-    //Mover vehiculo hacia adelante
+    //Mover vehículo hacia adelante
     //transform.Translate(0,0,1);
     transform.Translate(Vector3.forward * Time.deltaTime * 20);
 }
@@ -76,7 +76,7 @@ Vamos a repetir este mismo proceso con el obstáculo, y en ambos objetos verás 
 
 ![graficas](/graphics/assets/img/78_lab1.png)
 
-Si volvemos a ejecutar vamos a ver un cambio bastante drástico en lo que teniamos inicialmente.
+Si volvemos a ejecutar vamos a ver un cambio bastante drástico en lo que teníamos inicialmente.
 
 ![graficas](/graphics/assets/img/79_lab1.png)
 
@@ -84,7 +84,7 @@ Finalmente nuestra vehículo impacta con el obstáculo. Pero no solo eso, cuando
 
 Ahora, vamos a hacer un poco más "real" estas interacciones con los objetos, modificando el peso de los mismos.
 
-Si revisamos en el inspectos las propiedades del rigidbody nos daremos cuenta de la propiedad de **mass** o masa del objeto.
+Si revisamos en el inspector las propiedades del rigidbody nos daremos cuenta de la propiedad de **mass** o masa del objeto.
 
 ![graficas](/graphics/assets/img/80_lab1.png)
 
@@ -104,13 +104,13 @@ El resultado debe ser algo como lo siguiente.
 
 ![graficas](/graphics/assets/img/81_lab1.png)
 
-Como puedes ver, técnicamente la caja y la camioneta no estan colisionando del todo, sino que al tener resaltado como esta consturido el vehículo vemos que tiene un pequeño triángulo de frente que sirve como colisionador y que al tocar la caja la empieza a mover.
+Como puedes ver, técnicamente la caja y la camioneta no están colisionando del todo, sino que al tener resaltado como esta construido el vehículo vemos que tiene un pequeño triángulo de frente que sirve como colisionador y que al tocar la caja la empieza a mover.
 
-Por su parte su yo verifico como se constriuye la caja veremos que en este caso no cuenta con adicionales, sino que toda su construcción es el cubo que representa.
+Por su parte su yo verifico como se construye la caja veremos que en este caso no cuenta con adicionales, sino que toda su construcción es el cubo que representa.
 
 ![graficas](/graphics/assets/img/82_lab1.png)
 
-Las líneas verdes son el collider o colisionador, todo lo que choca con estas lineas o en ese rango van a tener una física, si lo quitamos, el cuerpo está ahí, pero pasaría como al inicio, atravesariamos los objetos.
+Las líneas verdes son el collider o colisionador, todo lo que choca con estas lineas o en ese rango van a tener una física, si lo quitamos, el cuerpo está ahí, pero pasaría como al inicio, atravesaríamos los objetos.
 
 Los objetos más detallados de los videojuegos tienen polígonos de colisión muy detallados para dar un mejor efecto y evitar lo que sucede con el carro que realmente nunca toca la caja al menos de frente.
 
@@ -134,9 +134,9 @@ Sin embargo, habrá ocasiones que necesitamos hacer copias de objetos de manera 
 
 Otro de los problemas que tenemos al cargar desde "0" nuestro objeto, es que para el caso de la caja, nosotros agregamos un **rigidbody** al objeto que ya tenemos, entonces los objetos del course library no cuentan con este componente, por lo que tendríamos que generar para cada objeto nuevo un **rigidbody** propio lo cual extendería demasiado el tiempo de trabajo y se haría tedioso. 
 
-Para hacer las cosas más fáciles podemos duplicar objetos ya existentes desde nuestra jerarquía utilizando el comando **ctrl+d**. Al ser el duplicado ya tenen para el caso del obstáculo una **rigidbody** e incluso la misma propiedad de masa que habíamos colocado de 50.
+Para hacer las cosas más fáciles podemos duplicar objetos ya existentes desde nuestra jerarquía utilizando el comando **ctrl+d**. Al ser el duplicado para el caso del obstáculo una **rigidbody** e incluso la misma propiedad de masa que habíamos colocado de 50.
 
-Incluso si quisiera hacer una producción en masa, puedo seleccionar los 2 obstáculos que ya cree, usando la tecla **shift** y al tener ambor nuevamente usar el comando **ctrl+d** con esto veremos que se duplican los 2 que ya tenía dando un resultado de 4 o 6 según los que hayas duplicado inicialmente.
+Incluso si quisiera hacer una producción en masa, puedo seleccionar los 2 obstáculos que ya cree, usando la tecla **shift** y al tener ambos nuevamente usar el comando **ctrl+d** con esto veremos que se duplican los 2 que ya tenía dando un resultado de 4 o 6 según los que hayas duplicado inicialmente.
 
 ![graficas](/graphics/assets/img/85_lab1.png)
 
@@ -146,7 +146,7 @@ Ahora lo que vamos a hacer es tener 3 cajas para hacer de obstáculos para el ve
 
 ![graficas](/graphics/assets/img/86_lab1.png)
 
-Ahora para cada caja vamos a modificar su coordenada z empezando con la primera en la pocisión 25, y después añadiremos +15 a cada una de las siguientes. El resultado deberá verse como se muestra.
+Ahora para cada caja vamos a modificar su coordenada z empezando con la primera en la posición 25, y después añadiremos +15 a cada una de las siguientes. El resultado deberá verse como se muestra.
 
 ![graficas](/graphics/assets/img/87_lab1.png)
 
@@ -156,7 +156,7 @@ Si yo muevo con las flechas del eje z, puedo ver que al tener las 3 seleccionada
 
 ![graficas](/graphics/assets/img/88_lab1.png)
 
-Si yo duplicara nuevamente la selección puedo mover a tener 6 cajas perfectamente alineadas dandome mayor facilidad de crear obstáculos para mi vehículo.
+Si yo duplicara nuevamente la selección puedo mover a tener 6 cajas perfectamente alineadas dándome mayor facilidad de crear obstáculos para mi vehículo.
 
 Para comenzar me quedaré solo con 3 cajas, pero modificaré la distancia entre ellas para que sea más fácil maniobrar. 
 
@@ -166,11 +166,11 @@ Para comenzar me quedaré solo con 3 cajas, pero modificaré la distancia entre 
 
 ![graficas](/graphics/assets/img/89_lab1.png)
 
-Ahora duplicaré esas 3 cajas y las movere de manera arbitraria a más o menos 1/4 de la distancia de la siguiente caja. Además de moverlas un poco a la izquiera en el eje x.
+Ahora duplicaré esas 3 cajas y las moveré de manera arbitraria a más o menos 1/4 de la distancia de la siguiente caja. Además de moverlas un poco a la izquierda en el eje x.
 
 ![graficas](/graphics/assets/img/90_lab1.png)
 
-Finalmente duplicaré nuevamente las cajas y las moveré otro cuarto de distancia arbitrari y ahora las jalaré hacia la derecha dandome el siguiente resultado.
+Finalmente duplicaré nuevamente las cajas y las moveré otro cuarto de distancia arbitrario y ahora las jalaré hacia la derecha dándome el siguiente resultado.
 
 ![graficas](/graphics/assets/img/91_lab1.png)
 
@@ -207,7 +207,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Mover vehiculo hacia adelante
+        //Mover vehículo hacia adelante
         //transform.Translate(0,0,1);
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
@@ -229,7 +229,7 @@ Como valor final en el parámetro del **Inspector** la vamos a dejar en 25.
 
 Ya que tenemos dominada la física y la velocidad, ahora vamos a hacer uno de los puntos más importantes de un buen juego y que al menos hasta ahora en nuestra vista de juego no hemos modificado, la cámara.
 
-Si bien ya teniamos posicionada la cámara, hasta este punto es estática.
+Si bien ya teníamos posicionada la cámara, hasta este punto es estática.
 
 Lo que vamos a realizar es que nuestra cámara siga a nuestro vehículo como un juego en 3era persona.
 
@@ -249,7 +249,7 @@ Lo primero que haremos es crear una variable global de esta manera.
 public GameObject player;
 ```
 
-Una vez hecho esto se añadira una propiedad en el **Inspector** para agrar un objeto de la escena, este paso es el más importante.
+Una vez hecho esto se añadirá una propiedad en el **Inspector** para agregar un objeto de la escena, este paso es el más importante.
 
 ![graficas](/graphics/assets/img/95_lab1.png)
 
@@ -270,19 +270,19 @@ void Update()
 }
 ```
 
-En pocas palabras estamos haciendo que la cámara tome la pocisión de nuestro vehículo. Como resultado que aparentemente lo siga.
+En pocas palabras estamos haciendo que la cámara tome la posición de nuestro vehículo. Como resultado que aparentemente lo siga.
 
 Si lo ejecutamos vamos a ver un detalle, todo se ve en verde hasta que vemos caer el vehículo encima de nosotros.
 
-Esto sucede por que al darle la misma posición de coordenadas de la cámara que el vehículo, la cámara pierde la altura que ya teniamos acomodada.
+Esto sucede por que al darle la misma posición de coordenadas de la cámara que el vehículo, la cámara pierde la altura que ya teníamos acomodada.
 
 ### Paso 6 Agregar offset a la cámara
 
-Para solucionar el problema de la cámara necesitamos repocisionarla con la altura que necesitamos.
+Para solucionar el problema de la cámara necesitamos reposicionarla con la altura que necesitamos.
 
 Para hacerlo dentro de nuestro script solo necesitamos agregar lo siguiente.
 
-En la línea de asignación de la posición que teniamos vamos a agregar lo siguiente.
+En la línea de asignación de la posición que teníamos vamos a agregar lo siguiente.
 
 ```
 transform.position = player.transform.position + new Vector3(0,6,-7);
