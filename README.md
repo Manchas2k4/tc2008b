@@ -19,7 +19,7 @@ Upon completion of this educational unit, students will be able to:
 [Template Project](/template-project/README.md)
 
 ## Index
-[Computer Graphics](/graphics/0_README.md)
+[Computer Graphics](https://meeplab2015.github.io/tc2008b-agodic24-101/docs/intro)
 
 ## Reto
 [Reto](https://github.com/Manchas2k4/tc2008b/blob/main/project-fj2024/Reto%20FJ2024.docx)
