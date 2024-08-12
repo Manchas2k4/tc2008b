@@ -1,3 +1,20 @@
+'''
+=================================================================
+File: testing.py
+Author: Pedro Perez
+Date: 12-ago-2024
+Description: This file implements the use of learning example for 
+the following scenario:
+
+In a two-dimensional array, an agent is placed at a (defined) 
+starting point and must reach a destination cell in as few steps 
+as possible. The agent can move between 1 or 2 cells in four 
+possible directions: up, down, left, and right.
+
+Copyright (c) 2024 by Tecnologico de Monterrey.
+All Rights Reserved. May be reproduced for any non-commercial purpose.
+=================================================================
+'''
 import random
 import numpy as np
 
