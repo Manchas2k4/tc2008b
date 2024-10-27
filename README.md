@@ -12,9 +12,6 @@ Upon completion of this educational unit, students will be able to:
 ## Intro to this Unit
 [Intro](/slides/00-intro.pdf)
 
-## Discord Link
-[Discord](https://discord.gg/pc5zbvQwWF)
-
 ## Template Project
 [Template Project](/template-project/README.md)
 
