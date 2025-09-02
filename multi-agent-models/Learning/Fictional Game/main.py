@@ -2,8 +2,6 @@ import fictional
 import utils
 
 def vs_human():
-    name = input("Player name? ") 
-    
     agent = fictional.Agent()
 
     finished = False
@@ -13,18 +11,18 @@ def vs_human():
             print("Valid moves: Scissors(0), Paper(1), Rock(2)")
             human = utils.integer_input_between("Your move? ", 0, 2)
 
-            computer = agent.make_move()
+            computer = agent.choose_move()
 
-            winner = fictional.who_won(human, computer)
+            winner = utils.who_won(human, computer)
             
-            print (f"{name} has selected", fictional.translate_move(human))
-            print (f"Computer has selected", fictional.translate_move(computer))
+            print (f"Player has selected", utils.translate_move(human))
+            print (f"Computer has selected", utils.translate_move(computer))
             if winner == -1:
-                print(f"{name} won this round")
+                print(f"Player won this round\n")
             elif winner == 0:
-                print ("It's a draw!")
+                print ("It's a draw!\n")
             else:
-                print("Computer won this round")
+                print("Computer won this round\n")
             agent.update_move(human)
 
         again = utils.integer_input_between("\nDo you want to continue? (0 - No, 1 - Yes) ", 0, 1)
