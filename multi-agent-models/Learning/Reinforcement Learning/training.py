@@ -149,6 +149,6 @@ def training():
         q_table[current_state, action] =  \
             ((1 - ALPHA) * q_table[current_state, action]) + \
             (ALPHA * (current_reward + \
-             (GAMMA* np.max(q_table[next_state]))))
+             (GAMMA * np.max(q_table[next_state]))))
 
 training()	
